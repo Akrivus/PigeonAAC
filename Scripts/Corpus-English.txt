@@ -1,0 +1,128 @@
+how do you feel
+i feel good
+i feel bad
+i feel excited
+i feel happy
+i feel sad
+i feel angry
+i feel scared
+i feel sleepy
+what do you want
+i want grape
+i want watermelon
+i want tangerine
+i want lemon
+i want banana
+i want pineapple
+i want apple
+i want pear
+i want peach
+i want cherries
+i want strawberry
+i want kiwi
+i want tomato
+i want coconut
+i want potato
+i want carrot
+i want pepper
+i want cucumber
+i want broccoli
+i want peanuts
+i want bread
+i want croissant
+i want pretzel
+i want pancakes
+i want cheese
+i want chicken
+i want meat
+i want bacon
+i want hamburger
+i want fries
+i want pizza
+i want hot dog
+i want sandwich
+i want taco
+i want burrito
+i want soup
+i want salad
+i want popcorn
+i want rice
+i want ice cream
+i want dumpling
+i want fortune cookie
+i want doughnut
+i want cookie
+i want cake
+i want pie
+i want chocolate
+i want candy
+i want lollipop
+i want milk
+i want coffee
+i want tea
+i want soda
+i want water
+i want fork
+i want spoon
+i want one dollar
+i want two dollars
+i want three dollars
+i want four dollars
+i want five dollars
+i want six dollars
+i want seven dollars
+i want eight dollars
+i want nine dollars
+i want ten dollars
+who are you
+who was that boy
+who was that girl
+who was that man
+who was that woman
+mom
+dad
+teacher
+brother
+sister
+what do you love
+i love my mom
+i love my dad
+i love my teacher
+i love my brother
+i love my sister
+i love my cat
+i love my dog
+i love my fish
+i love my pet
+what do you have
+i have a brother
+i have a sister
+i have a cat
+i have a dog 
+i have a fish
+i have a pet
+i have two brothers
+i have two sisters
+i have three cats
+i have four dogs
+i have five fish
+i have ten pets
+what do you like
+i like to sing
+i like music
+i like movies
+i like to paint
+i want to sing
+i want to play
+i want to dance
+i want to sleep
+i want to talk
+i hear music
+i hear talking
+i see colors
+i see a cat
+i see my mom
+i see dad
+i see red
+i see blue
+what time is it
