@@ -4,4 +4,4 @@ PidgeonTalk is an augmentative and alternative communication device that utilize
 ## Setting up
 Build the solution as normal, and move the "Scripts" folder into your working path. Once started, the program should work provided you have text to speech working.
 
-More information will come in regarding the user's ability to change, add, or augment the current language data to fit your precise needs.
+More information will come in regarding the user's ability to change, add, or augment the current language data to fit you or your child's precise needs.
