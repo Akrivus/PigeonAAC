@@ -176,6 +176,7 @@ namespace PidgeonTalk
                     }
                 }
             }
+            Location = start;
             if (start == 0)
             {
                 LastKey = key;
