@@ -1,0 +1,60 @@
+What do you want
+I want chips
+I want grapes
+I want hug one
+I want cuddle one
+I want soda
+I want crackers
+I want pretzels
+I want hotdog one
+I want pizza
+I want popcorn
+I want water
+I want pasta
+I want chocolate
+I want apple one
+I want orange one
+What do you like
+I like cats
+I like dogs
+I like pink
+I like purple
+I like green
+I like blue
+I like food
+How do you feel
+I feel good
+I feel bad
+I feel happy
+I feel sad
+I feel scared
+I feel angry
+What do you have
+I have cat one
+I have sister one
+I have brother one
+I have dollar one
+I have dollar two
+I have dollar three
+I have dollar four
+I have dog one
+I have fish one
+I have fish one blue
+I have fish one pink
+I have fish one green
+I have fish one yellow
+I have fish one white
+I have fish one black
+I have fish one red
+I have fish five
+I have pet six
+I have dollar seven
+I have dollar eight
+I have dollar nine
+I have finger ten
+Who is that
+That is mom
+That is dad
+That is Kismet
+That is Owen
+That is Eleanor

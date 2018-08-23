@@ -67,7 +67,7 @@
             this.EntryYes.Name = "EntryYes";
             this.EntryYes.Size = new System.Drawing.Size(387, 63);
             this.EntryYes.TabIndex = 1;
-            this.EntryYes.Text = "👌";
+            this.EntryYes.Text = "Yes";
             this.EntryYes.UseVisualStyleBackColor = false;
             this.EntryYes.Click += new System.EventHandler(this.EntryYes_Click);
             // 
@@ -81,7 +81,7 @@
             this.EntryNo.Name = "EntryNo";
             this.EntryNo.Size = new System.Drawing.Size(387, 63);
             this.EntryNo.TabIndex = 2;
-            this.EntryNo.Text = "🙅";
+            this.EntryNo.Text = "No";
             this.EntryNo.UseVisualStyleBackColor = false;
             this.EntryNo.Click += new System.EventHandler(this.EntryNo_Click);
             // 
@@ -95,7 +95,7 @@
             this.Play.Name = "Play";
             this.Play.Size = new System.Drawing.Size(518, 63);
             this.Play.TabIndex = 3;
-            this.Play.Text = "🗣️";
+            this.Play.Text = "🗣";
             this.Play.UseVisualStyleBackColor = false;
             this.Play.Click += new System.EventHandler(this.Play_Click);
             // 
@@ -103,13 +103,13 @@
             // 
             this.EntryHello.BackColor = System.Drawing.Color.YellowGreen;
             this.EntryHello.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EntryHello.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EntryHello.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EntryHello.ForeColor = System.Drawing.Color.White;
             this.EntryHello.Location = new System.Drawing.Point(12, 167);
             this.EntryHello.Name = "EntryHello";
             this.EntryHello.Size = new System.Drawing.Size(256, 63);
             this.EntryHello.TabIndex = 4;
-            this.EntryHello.Text = "🖐";
+            this.EntryHello.Text = "Hello";
             this.EntryHello.UseVisualStyleBackColor = false;
             this.EntryHello.Click += new System.EventHandler(this.EntryHello_Click);
             // 
@@ -117,13 +117,13 @@
             // 
             this.EntryGoodbye.BackColor = System.Drawing.Color.Goldenrod;
             this.EntryGoodbye.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EntryGoodbye.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EntryGoodbye.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EntryGoodbye.ForeColor = System.Drawing.Color.White;
             this.EntryGoodbye.Location = new System.Drawing.Point(274, 167);
             this.EntryGoodbye.Name = "EntryGoodbye";
             this.EntryGoodbye.Size = new System.Drawing.Size(256, 63);
             this.EntryGoodbye.TabIndex = 5;
-            this.EntryGoodbye.Text = "🖖";
+            this.EntryGoodbye.Text = "Goodbye";
             this.EntryGoodbye.UseVisualStyleBackColor = false;
             this.EntryGoodbye.Click += new System.EventHandler(this.EntryGoodbye_Click);
             // 
@@ -131,13 +131,13 @@
             // 
             this.EntryHelp.BackColor = System.Drawing.Color.OrangeRed;
             this.EntryHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EntryHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EntryHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EntryHelp.ForeColor = System.Drawing.Color.White;
             this.EntryHelp.Location = new System.Drawing.Point(536, 167);
             this.EntryHelp.Name = "EntryHelp";
             this.EntryHelp.Size = new System.Drawing.Size(256, 63);
             this.EntryHelp.TabIndex = 6;
-            this.EntryHelp.Text = "😭";
+            this.EntryHelp.Text = "Help";
             this.EntryHelp.UseVisualStyleBackColor = false;
             this.EntryHelp.Click += new System.EventHandler(this.EntryHelp_Click);
             // 
@@ -150,7 +150,7 @@
             this.Entry3.Name = "Entry3";
             this.Entry3.Size = new System.Drawing.Size(256, 127);
             this.Entry3.TabIndex = 9;
-            this.Entry3.Text = "WH";
+            this.Entry3.Text = "O";
             this.Entry3.UseVisualStyleBackColor = false;
             this.Entry3.Click += new System.EventHandler(this.Entry3_Click);
             // 
@@ -163,7 +163,7 @@
             this.Entry2.Name = "Entry2";
             this.Entry2.Size = new System.Drawing.Size(256, 127);
             this.Entry2.TabIndex = 8;
-            this.Entry2.Text = "VB";
+            this.Entry2.Text = "V";
             this.Entry2.UseVisualStyleBackColor = false;
             this.Entry2.Click += new System.EventHandler(this.Entry2_Click);
             // 
@@ -176,7 +176,7 @@
             this.Entry1.Name = "Entry1";
             this.Entry1.Size = new System.Drawing.Size(256, 127);
             this.Entry1.TabIndex = 7;
-            this.Entry1.Text = "NN";
+            this.Entry1.Text = "S";
             this.Entry1.UseVisualStyleBackColor = false;
             this.Entry1.Click += new System.EventHandler(this.Entry1_Click);
             // 
@@ -202,7 +202,7 @@
             this.Entry5.Name = "Entry5";
             this.Entry5.Size = new System.Drawing.Size(256, 127);
             this.Entry5.TabIndex = 11;
-            this.Entry5.Text = "JJ";
+            this.Entry5.Text = "C";
             this.Entry5.UseVisualStyleBackColor = false;
             this.Entry5.Click += new System.EventHandler(this.Entry5_Click);
             // 
@@ -215,7 +215,7 @@
             this.Entry4.Name = "Entry4";
             this.Entry4.Size = new System.Drawing.Size(256, 127);
             this.Entry4.TabIndex = 10;
-            this.Entry4.Text = "CD";
+            this.Entry4.Text = "A";
             this.Entry4.UseVisualStyleBackColor = false;
             this.Entry4.Click += new System.EventHandler(this.Entry4_Click);
             // 

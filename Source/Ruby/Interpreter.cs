@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using System.IO;
 using System.Text;
-using System.Windows.Forms;
 
 namespace PidgeonTalk.Ruby
 {
@@ -34,11 +33,11 @@ namespace PidgeonTalk.Ruby
         }
         public static string GenerateLine(string argument)
         {
-            return Run("GetLang", argument);
+            return Run("GenerateLine", argument);
         }
-        public static string MapEmojis(string argument)
+        public static string GetNext(string argument)
         {
-            return Run("GetEmoji", argument);
+            return Run("GetNext", argument);
         }
         public static string Colorize(string argument)
         {

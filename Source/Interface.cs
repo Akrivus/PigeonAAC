@@ -1,13 +1,7 @@
 ﻿using PidgeonTalk.Language;
 using PidgeonTalk.Ruby;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PidgeonTalk
@@ -15,7 +9,7 @@ namespace PidgeonTalk
     public partial class Interface : Form
     {
         private string LastKey = "";
-        private int Location = 0;
+        private int Loc = 0;
         public Interface()
         {
             InitializeComponent();
@@ -56,7 +50,7 @@ namespace PidgeonTalk
         }
         private void EntryMore_Click(object sender, EventArgs e)
         {
-            LoadUpIcons(LastKey, Location + 5);
+            LoadUpIcons(LastKey, Loc + 5);
             Speaker.Beep(600);
         }
         private void EntryYes_Click(object sender, EventArgs e)
@@ -92,95 +86,98 @@ namespace PidgeonTalk
         private void LoadUpIcons(string key, int start = 0)
         {
             int off = 0;
-            string[] icons = Interpreter.MapEmojis(key).Split(',');
+            string[] icons = Interpreter.GetNext(key).Split(',');
             Entry1.BackColor = Color.Silver; Entry1.Text = "";
             Entry2.BackColor = Color.Silver; Entry2.Text = "";
             Entry3.BackColor = Color.Silver; Entry3.Text = "";
             Entry4.BackColor = Color.Silver; Entry4.Text = "";
             Entry5.BackColor = Color.Silver; Entry5.Text = "";
-            for (int i = start; i < start + 5; ++i)
+            if (icons.Length > 1)
             {
-                if (i == start + 0)
+                for (int i = start; i < start + 5; ++i)
                 {
-                    if (i < icons.Length)
+                    if (i == start + 0)
                     {
-                        Entry1.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
-                        Entry1.Text = icons[i];
+                        if (i < icons.Length)
+                        {
+                            Entry1.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
+                            Entry1.Text = icons[i];
+                        }
+                        else
+                        {
+                            Entry1.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
+                            Entry1.Text = icons[off];
+                            ++off;
+                            Loc = -5;
+                        }
                     }
-                    else
+                    if (i == start + 1)
                     {
-                        Entry1.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
-                        Entry1.Text = icons[off];
-                        ++off;
-                        Location = -5;
+                        if (i < icons.Length)
+                        {
+                            Entry2.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
+                            Entry2.Text = icons[i];
+                        }
+                        else
+                        {
+                            Entry2.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
+                            Entry2.Text = icons[off];
+                            ++off;
+                            Loc = -5;
+                        }
                     }
-                }
-                if (i == start + 1)
-                {
-                    if (i < icons.Length)
+                    if (i == start + 2)
                     {
-                        Entry2.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
-                        Entry2.Text = icons[i];
+                        if (i < icons.Length)
+                        {
+                            Entry3.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
+                            Entry3.Text = icons[i];
+                        }
+                        else
+                        {
+                            Entry3.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
+                            Entry3.Text = icons[off];
+                            ++off;
+                            Loc = -5;
+                        }
                     }
-                    else
+                    if (i == start + 3)
                     {
-                        Entry2.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
-                        Entry2.Text = icons[off];
-                        ++off;
-                        Location = -5;
+                        if (i < icons.Length)
+                        {
+                            Entry4.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
+                            Entry4.Text = icons[i];
+                        }
+                        else
+                        {
+                            Entry4.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
+                            Entry4.Text = icons[off];
+                            ++off;
+                            Loc = -5;
+                        }
                     }
-                }
-                if (i == start + 2)
-                {
-                    if (i < icons.Length)
+                    if (i == start + 4)
                     {
-                        Entry3.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
-                        Entry3.Text = icons[i];
-                    }
-                    else
-                    {
-                        Entry3.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
-                        Entry3.Text = icons[off];
-                        ++off;
-                        Location = -5;
-                    }
-                }
-                if (i == start + 3)
-                {
-                    if (i < icons.Length)
-                    {
-                        Entry4.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
-                        Entry4.Text = icons[i];
-                    }
-                    else
-                    {
-                        Entry4.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
-                        Entry4.Text = icons[off];
-                        ++off;
-                        Location = -5;
-                    }
-                }
-                if (i == start + 4)
-                {
-                    if (i < icons.Length)
-                    {
-                        Entry5.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
-                        Entry5.Text = icons[i];
-                    }
-                    else
-                    {
-                        Entry5.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
-                        Entry5.Text = icons[off];
-                        ++off;
-                        Location = -5;
+                        if (i < icons.Length)
+                        {
+                            Entry5.BackColor = Color.FromName(Interpreter.Colorize(icons[i]));
+                            Entry5.Text = icons[i];
+                        }
+                        else
+                        {
+                            Entry5.BackColor = Color.FromName(Interpreter.Colorize(icons[off]));
+                            Entry5.Text = icons[off];
+                            ++off;
+                            Loc = -5;
+                        }
                     }
                 }
             }
-            Location = start;
+            Loc = start;
             if (start == 0)
             {
                 LastKey = key;
-                Location = 0;
+                Loc = 0;
             }
         }
     }
