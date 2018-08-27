@@ -1,19 +1,19 @@
 What do you want
 I want chips
 I want grapes
-I want hug one
-I want cuddle one
+I want hug
+I want cuddle
 I want soda
 I want crackers
 I want pretzels
-I want hotdog one
+I want hotdog
 I want pizza
 I want popcorn
 I want water
 I want pasta
 I want chocolate
-I want apple one
-I want orange one
+I want apple
+I want orange
 What do you like
 I like cats
 I like dogs
