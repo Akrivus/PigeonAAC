@@ -5,6 +5,7 @@ PidgeonTalk is an augmentative and alternative communication device that utilize
 Build the solution as normal, and move the "Scripts" folder into your working path.
 * Run "GeneratePools.rb," this creates a word pool for each part of speech.
 * Run "GenerateTable.rb," this creates a translation table.
+* Run "GenerateChain.rb," this creates a markov chain for better option sorting.
 Run the executable and it should work.
 
 ## Configuation
