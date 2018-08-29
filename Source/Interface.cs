@@ -2,6 +2,7 @@
 using PidgeonTalk.Ruby;
 using System;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace PidgeonTalk
@@ -16,6 +17,12 @@ namespace PidgeonTalk
         }
         private void Interface_Load(object sender, EventArgs e)
         {
+            string[] Lines = File.ReadAllLines(Environment.CurrentDirectory + "//Scripts//Buttons-Pidgin.txt");
+            EntryYes.Text = Lines[0];
+            EntryNo.Text = Lines[1];
+            EntryHello.Text = Lines[2];
+            EntryGoodbye.Text = Lines[3];
+            EntryHelp.Text = Lines[4];
             LoadUpIcons("");
         }
         private void Entry1_Click(object sender, EventArgs e)
@@ -55,23 +62,28 @@ namespace PidgeonTalk
         }
         private void EntryYes_Click(object sender, EventArgs e)
         {
-            Speaker.Say("Yes");
+            string[] Lines = File.ReadAllLines(Environment.CurrentDirectory + "//Scripts//Buttons-English.txt");
+            Speaker.Say(Lines[0]);
         }
         private void EntryNo_Click(object sender, EventArgs e)
         {
-            Speaker.Say("No");
+            string[] Lines = File.ReadAllLines(Environment.CurrentDirectory + "//Scripts//Buttons-English.txt");
+            Speaker.Say(Lines[1]);
         }
         private void EntryHello_Click(object sender, EventArgs e)
         {
-            Speaker.Say("Hello!");
+            string[] Lines = File.ReadAllLines(Environment.CurrentDirectory + "//Scripts//Buttons-English.txt");
+            Speaker.Say(Lines[2]);
         }
         private void EntryGoodbye_Click(object sender, EventArgs e)
         {
-            Speaker.Say("Goodbye!");
+            string[] Lines = File.ReadAllLines(Environment.CurrentDirectory + "//Scripts//Buttons-English.txt");
+            Speaker.Say(Lines[3]);
         }
         private void EntryHelp_Click(object sender, EventArgs e)
         {
-            Speaker.Say("Help!");
+            string[] Lines = File.ReadAllLines(Environment.CurrentDirectory + "//Scripts//Buttons-English.txt");
+            Speaker.Say(Lines[4]);
         }
         private void Play_Click(object sender, EventArgs e)
         {
